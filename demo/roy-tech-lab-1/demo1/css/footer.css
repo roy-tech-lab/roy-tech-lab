@@ -1,0 +1,50 @@
+/* Footer - One Line Style */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #00264d;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+.footer-inline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.footer-inline a {
+  text-decoration: none;
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.footer-inline a:hover {
+  color: #00bfff;
+}
+
+@media screen and (max-width: 480px) {
+  .footer-inline {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+}

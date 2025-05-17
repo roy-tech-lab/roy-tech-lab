@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | ROY TECH LAB</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="ROY TECH LAB Logo" class="logo" />
+    <h1>ROY TECH LAB</h1>
+    <p>Robotics Education for Schools</p>
+  </header>
+
+  <nav class="navbar">
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="services.html">Services</a>
+      <a href="after_school.html">Online Classes</a>
+    </div>
+    <button class="hamburger" id="hamburger">☰</button>
+  </nav>
+
+  <div class="modal" id="popupModal">
+    <div class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="services.html">Services</a>
+      <a href="after_school.html">Online Classes</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to ROY TECH LAB</h2>
+      <p>Igniting Young Minds Through Robotics & Innovation</p>
+      <p>At <strong>ROY TECH LAB</strong>, we believe the future belongs to the creators, the innovators, and the problem-solvers. That’s why we bring <strong>hands-on robotics education</strong> directly to schools — making STEM learning <em>fun, engaging, and practical</em> for students.</p>
+      <p>🚀 <strong>Started in February 2025</strong>, our journey began with a vision to empower schoolchildren with real-world tech skills.  
+         🏫 Our first proud collaboration was with <strong>Ramkrishna Mission Vivekananda Vidyamandir</strong>, and we’re just getting started!</p>
+    </section>
+
+    <section class="services">
+      <h3>What We Do</h3>
+      <ul>
+        <li>
+          <strong>School Robotics Programs:</strong> We conduct interactive classes that teach students how to build and code their own robots using Arduino, ESP32, sensors, and more.
+        </li>
+        <li>
+          <strong>STEM Learning Made Fun:</strong> Through real projects like line-following robots, human-following bots, and smart cars, we help students apply classroom science in exciting ways.
+        </li>
+        <li>
+          <strong>Workshops & Exhibitions:</strong> We organize school-level competitions, demo days, and STEM exhibitions to showcase student creations and boost confidence.
+        </li>
+      </ul>
+    </section>
+
+    <section class="why-choose-us">
+      <h3>Why Choose Us?</h3>
+      <ul>
+        <li>✅ <strong>Curriculum-Aligned Projects</strong></li>
+        <li>✅ <strong>Beginner-Friendly Approach</strong></li>
+        <li>✅ <strong>Real Hardware – Not Just Theory</strong></li>
+        <li>✅ <strong>Guided by Experts in Robotics & Coding</strong></li>
+      </ul>
+    </section>
+
+    <section class="join-us">
+      <h3>Join the Future of Learning</h3>
+      <p>Whether you're a <strong>school leader</strong> looking to bring robotics into your classrooms, or a <strong>parent</strong> wanting your child to learn future-ready skills — <strong>ROY TECH LAB</strong> is here to help.</p>
+      <p><a href="contact.html">Contact us</a> today to start your school’s journey into robotics!</p>
+    </section>
+  </main>
+
+  <footer>
+  <div class="footer-inline">
+    <span>© 2025 ROY TECH LAB</span>
+    <span>| Email: <a href="roytechlab@gmail.com">roytechlab@gmail.com</a></span>
+    <span>| Phone: <a href="tel:+919563349517">+91-9563349517</a></span>
+    <span>| <a href="https://www.facebook.com/share/1Fks9qHN95/" target="_blank">Facebook</a></span>
+  </div>
+</footer>
+
+  <script src="js/script.js"></script>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-analytics.js";
+
+    // Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyC38r7hL9mInIVqwD69ir6oVp6U7Zl39jE",
+      authDomain: "roy-tech-lab-5d493.firebaseapp.com",
+      projectId: "roy-tech-lab-5d493",
+      storageBucket: "roy-tech-lab-5d493.firebasestorage.app",
+      messagingSenderId: "281009776284",
+      appId: "1:281009776284:web:fe1307e7d077ccb84f6f59",
+      measurementId: "G-9BGGGD5477"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>
